@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top:50px;
+            margin-bottom: 80px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+        }
+        /* .red { background-color: red; }
+        .blue { background-color: blue; }
+        .green { background-color: green; } */
+        .yellow { 
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-wrap: wrap;
+            background-color: rgb(203, 119, 8); 
+            min-width: 50vw;
+
+        }
+        .change{
+            display: flex;
+            justify-content: center;
+            margin-top:100px;
+        }
+        .btn {
+            
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .options{
+            display: flex;
+            justify-content: center;
+            gap: 3vw;
+        }
+        .opt{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background: rgb(93, 157, 196);
+            min-width: 22vw;
+            min-height: 17vh;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="box red">Ayush</div>
+        <div class="box blue">Prakash</div>
+        <div class="box green">Tiwar</div> -->
+        <div class="box yellow"><p></p></div>
+    </div>
+    <div class="options">
+        <div class="opt opt1"><p></p></div>
+        <div class="opt opt2"><p></p></div>
+        <div class="opt opt3"><p></p></div>
+        <div class="opt opt4"><p></p></div>
+    </div>
+    <!-- <div class="change">
+    <button class="btn" onclick="x(); changeColor();">Begin</button>
+    </div> -->
+    <div class="change">
+        <button class="btn" onclick="start();">Begin</button>
+        </div>
+        <!-- <button class="btn" onclick="x(); changeColor();"></button>
+        <button class="btn" onclick="x(); changeColor();"></button>
+        <button class="btn1" onclick="x(); changeColor();"></button>
+        <button class="btn" onclick="x(); changeColor();"></button> -->
+    <script src="temp1.js"></script>
+</body>
+</html>
